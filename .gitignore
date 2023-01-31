@@ -6,3 +6,4 @@ terraform.tfstate
 terraform-provider-*
 terraform-provider-aws_v2.13.0_x4
 *provider*
+*commands*
