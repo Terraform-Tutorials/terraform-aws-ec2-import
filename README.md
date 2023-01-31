@@ -8,7 +8,9 @@ A ideia aqui hoje é a gente fazer do zero, um import bem simples de um recursos
 ## Como iniciar uma instância EC2 via AWS console
 Para que possamos exwemplificar de forma real, vamos ter que criar do zero, uma instância manualmente via console na AWS. Para isso, separei um material legal que cobre isso. Os passos abaixo foram retirados diretamente da documentação da AWS, assim você pode prosseguir com a criação da sua instância EC2 na AWS. Acesse esse link [aqui](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
 
-## Trabalhando com o Terraform
+## Como funciona o recurso de `import` do Terraform?
+Para que seja possível importar qualquer recurso para o Terraform, precisamos criar o  recurso desejado, seguindo as configurações do Terraform, por exemplo, se é um AWS S3, precisamos seguir com a criação do S3, para que ele seja mepeado pelo Terraform, e depos por fim, importado. Sempre siga esse modelo de implantação, sempre crie o recurso que deseje importar.
+
 
 
 
