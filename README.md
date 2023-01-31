@@ -9,7 +9,12 @@ A ideia aqui hoje é a gente fazer do zero, um import bem simples de um recursos
 Para que possamos exwemplificar de forma real, vamos ter que criar do zero, uma instância manualmente via console na AWS. Para isso, separei um material legal que cobre isso. Os passos abaixo foram retirados diretamente da documentação da AWS, assim você pode prosseguir com a criação da sua instância EC2 na AWS. Acesse esse link [aqui](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
 
 ## Como funciona o recurso de `import` do Terraform?
-Para que seja possível importar qualquer recurso para o Terraform, precisamos criar o  recurso desejado, seguindo as configurações do Terraform, por exemplo, se é um AWS S3, precisamos seguir com a criação do S3, para que ele seja mepeado pelo Terraform, e depos por fim, importado. Sempre siga esse modelo de implantação, sempre crie o recurso que deseje importar.
+Para que seja possível importar qualquer recurso para o Terraform, precisamos criar o  recurso desejado, seguindo as configurações do Terraform, por exemplo, se é um AWS S3, precisamos seguir com a criação do S3 (resource block), para que ele seja mepeado pelo Terraform, e depos por fim, importado.
+
+Para mais informações sobre o funcionamento do `terraform import` verifica [aqui](https://developer.hashicorp.com/terraform/cli/import) na doc da ferramenta as opções e modos de uso do comando. Existe também um [hands-on](https://developer.hashicorp.com/terraform/tutorials/state/state-import?utm_source=WEBSITE&utm_medium=WEB_IO&utm_offer=ARTICLE_PAGE&utm_content=DOCS) bem legal que mostra os passos a passos de como obter o import de um recurso com o Terraform.
+
+## Realizando o `import` com o Terraform
+
 
 
 
